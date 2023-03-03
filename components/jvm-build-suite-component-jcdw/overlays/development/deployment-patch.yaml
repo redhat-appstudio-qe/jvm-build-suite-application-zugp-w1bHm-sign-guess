@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-jcdw
+  namespace: jvm-build-jnol-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:dc6ef5927cea1289a640308781679e2ef6779a2fec0dd0ca012534a85b7e9e9d
+        name: container-image
+        resources: {}
+status: {}
