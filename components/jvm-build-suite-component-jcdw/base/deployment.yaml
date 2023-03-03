@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-jcdw
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:8f3db5e97ca34d4fb0bf02a99df4dd5a
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:dc6ef5927cea1289a640308781679e2ef6779a2fec0dd0ca012534a85b7e9e9d
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-jcdw
     app.kubernetes.io/part-of: jvm-build-suite-application-zugp
-  name: jvm-build-suite-componentbgmr
+  name: jvm-build-suite-componentbk5r
   namespace: jvm-build-jnol-tenant
 spec:
   port:
